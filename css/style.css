@@ -142,3 +142,9 @@ h1.main-title {
 .btn-volver:hover {
   background-color: var(--color-gold);
 }
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 0.85rem;
+  }
+}
