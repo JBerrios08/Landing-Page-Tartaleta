@@ -1,0 +1,147 @@
+/* ================================
+   VARIABLES: Colores y Fuentes
+================================== */
+:root {
+    --color-blue: #9db5bf;
+    --color-gray: #525252;
+    --color-terra: #a16a5b;
+    --color-gold: #b07d3a;
+
+    --font-title: 'FisterraMorte', serif;
+    --font-base: 'SofiaPro', sans-serif;
+}
+
+/* ================================
+   Fuentes personalizadas
+================================== */
+@font-face {
+    font-family: 'FisterraMorte';
+    src: url('../fonts/FisterraMorte.woff2') format('woff2'),
+         url('../fonts/FisterraMorte.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SofiaPro';
+    src: url('../fonts/SofiaPro-Light.woff2') format('woff2'),
+         url('../fonts/SofiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SofiaPro';
+    src: url('../fonts/SofiaPro-Medium.woff2') format('woff2'),
+         url('../fonts/SofiaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SofiaPro';
+    src: url('../fonts/SofiaPro-Bold.woff2') format('woff2'),
+         url('../fonts/SofiaPro-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ================================
+   Estilos base
+================================== */
+body {
+    font-family: var(--font-base);
+    background-color: #f8f9fa;
+    color: var(--color-gray);
+}
+
+/* ================================
+   Encabezado principal
+================================== */
+h1.main-title {
+    color: var(--color-terra);
+    font-family: var(--font-title);
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+/* ================================
+   Tarjetas de receta
+================================== */
+.card-tartaleta {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 2rem auto;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(157, 181, 191, 0.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-tartaleta:hover {
+    transform: translateY(-5px);
+}
+
+.card-tartaleta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-tartaleta .card-body {
+    padding: 0.75rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.card-tartaleta .card-title {
+    margin: 0;
+    /* font-size: 1.1rem; */
+    font-weight: 500;
+    color: var(--color-gold);
+    font-family: var(--font-base);
+    text-align: center;
+}
+
+/* ================================
+   Página de receta
+================================== */
+
+.receta-title {
+  color: var(--color-terra);
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.receta-section-title {
+  color: var(--color-gold);
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.receta-text {
+  font-family: var(--font-base);
+  font-size: 1.1rem;
+  color: var(--color-gray);
+}
+
+.btn-volver {
+  background-color: var(--color-terra);
+  color: #fff;
+  font-family: var(--font-base);
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-volver:hover {
+  background-color: var(--color-gold);
+}
