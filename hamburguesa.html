@@ -6,58 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Receta: Hamburguesa</title>
 
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body class="bg-light">
 
-  <div class="container py-5">
+  <main class="container py-5">
 
     <!-- Título -->
-    <h1 class="receta-title">Hamburguesa</h1>
+    <header class="text-center mb-5">
+      <h1 class="receta-title">Hamburguesa</h1>
+    </header>
 
-    <!-- Video -->
-    <div class="ratio ratio-16x9 mb-5">
-      <iframe src="https://www.youtube.com/embed/M4Zk8TmzScM" title="Video receta Hamburguesa" allowfullscreen></iframe>
-    </div>
+    <!-- Video vertical -->
+    <section class="mb-5 d-flex justify-content-center">
+      <video src="./video/Hamburguesa.mp4" controls class="rounded shadow-sm" style="max-width: 360px; width: 100%;">
+        Tu navegador no soporta el video HTML5.
+      </video>
+    </section>
 
     <!-- Ingredientes -->
-    <div class="mb-5">
-      <h2 class="receta-section-title">Ingredientes</h2>
+    <section class="mb-5">
+      <h2 class="receta-section-title">
+        <i class="fas fa-carrot me-2"></i>Ingredientes
+      </h2>
       <ul class="receta-text">
-        <li>500 g de harina de trigo</li>
-        <li>250 ml de leche tibia</li>
-        <li>10 g de levadura seca</li>
-        <li>30 g de azúcar</li>
-        <li>1 huevo</li>
-        <li>50 g de mantequilla</li>
-        <li>10 g de sal</li>
-        <li>1 huevo adicional para pintar</li>
-        <li>Semillas de sésamo (opcional)</li>
+        <li>Texto</li>
       </ul>
-    </div>
+    </section>
 
     <!-- Procedimiento -->
-    <div class="mb-5">
-      <h2 class="receta-section-title">Procedimiento</h2>
+    <section class="mb-5">
+      <h2 class="receta-section-title">
+        <i class="fas fa-list-ol me-2"></i>Procedimiento
+      </h2>
       <ol class="receta-text">
-        <li>Disolver la levadura y el azúcar en la leche tibia y dejar reposar 10 minutos.</li>
-        <li>Agregar el huevo, la harina y la sal. Amasar hasta que la masa se vuelva homogénea.</li>
-        <li>Incorporar la mantequilla a temperatura ambiente y amasar 10 minutos más.</li>
-        <li>Dejar fermentar 1 hora tapado en lugar cálido.</li>
-        <li>Formar bollos del mismo tamaño y colocarlos en bandeja con papel encerado.</li>
-        <li>Dejar reposar 30–40 minutos, pintar con huevo y espolvorear sésamo.</li>
-        <li>Hornear a 180°C por 20–25 minutos hasta dorar.</li>
+        <li>Texto</li>
       </ol>
-    </div>
+    </section>
 
     <!-- Botón volver -->
-    <div class="text-center">
-      <a href="index.html" class="btn btn-volver">Elegir otra receta</a>
-    </div>
+    <footer class="text-center">
+      <a href="index.html" class="btn btn-volver">
+        <i class="fas fa-arrow-left me-2"></i>Elegir otra receta
+      </a>
+    </footer>
 
-  </div>
+  </main>
 
 </body>
 
