@@ -23,31 +23,40 @@
       <h1 class="main-title">Hogaza</h1>
     </header>
 
-    <!-- Video vertical -->
-    <section class="mb-5 d-flex justify-content-center">
-      <video src="./video/1.mp4" controls class="rounded shadow-sm" style="max-width: 360px; width: 100%;">
-        Tu navegador no soporta el video HTML5.
-      </video>
-    </section>
+    <!-- Contenedor en columnas para pantallas grandes -->
+    <section class="mb-5 row align-items-center">
 
-    <!-- Ingredientes -->
-    <section class="mb-5">
-      <h2 class="receta-section-title">
-        <i class="fas fa-carrot me-2"></i>Ingredientes
-      </h2>
-      <ul class="receta-text">
-        <li>Texto</li>
-      </ul>
-    </section>
+      <!-- Video -->
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
+        <video src="./video/1.mp4" controls class="rounded shadow-sm w-100" style="max-width: 360px;">
+          Tu navegador no soporta el video HTML5.
+        </video>
+      </div>
 
-    <!-- Procedimiento -->
-    <section class="mb-5">
-      <h2 class="receta-section-title">
-        <i class="fas fa-list-ol me-2"></i>Procedimiento
-      </h2>
-      <ol class="receta-text">
-        <li>Texto</li>
-      </ol>
+      <!-- Ingredientes y Procedimiento -->
+      <div class="col-12 col-lg-6">
+
+        <!-- Ingredientes -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-carrot me-2"></i>Ingredientes
+          </h2>
+          <ul class="receta-text">
+            <li>Texto</li>
+          </ul>
+        </div>
+
+        <!-- Procedimiento -->
+        <div>
+          <h2 class="receta-section-title">
+            <i class="fas fa-list-ol me-2"></i>Procedimiento
+          </h2>
+          <ol class="receta-text">
+            <li>Texto</li>
+          </ol>
+        </div>
+
+      </div>
     </section>
 
     <!-- Botón volver -->
