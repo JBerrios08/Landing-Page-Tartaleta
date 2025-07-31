@@ -61,8 +61,8 @@ body {
 h1.main-title {
     color: var(--color-terra);
     font-family: var(--font-title);
-    font-size: 5rem;
     font-weight: normal;
+    font-size: clamp(2rem, 6vw, 5rem); /* Se adapta automáticamente */
 }
 
 /* ================================
