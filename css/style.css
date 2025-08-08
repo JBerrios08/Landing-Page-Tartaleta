@@ -57,6 +57,10 @@ body {
     font-family: var(--font-base);
     background-color: #f8f9fa;
     color: var(--color-gray);
+    background-image: url('../img/mosaico.png');
+    background-repeat: repeat;
+    position: relative;
+    z-index: 0;
 }
 
 /* ================================
@@ -145,9 +149,3 @@ h1.main-title {
   }
 }
 
-body {
-  background-image: url('../img/mosaico.png');
-  background-repeat: repeat;
-  position: relative;
-  z-index: 0;
-}
