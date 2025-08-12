@@ -24,33 +24,92 @@
     <!-- Título -->
     <header class="text-center mb-5">
       <h1 class="main-title">Croissant</h1>
+      <h2 class="sub-title">(sin masa madre)</h2>
     </header>
 
-    <!-- Video vertical -->
-    <section class="mb-5 d-flex justify-content-center">
-      <video src="./video/Croissant.mp4" controls class="rounded shadow-sm" style="max-width: 360px; width: 100%;">
-        Tu navegador no soporta el video HTML5.
-      </video>
-    </section>
+    <!-- Contenedor en columnas para pantallas grandes -->
+    <section class="mb-5 row align-items-center">
 
-    <!-- Ingredientes -->
-    <section class="mb-5">
-      <h2 class="receta-section-title">
-        <i class="fas fa-carrot me-2"></i>Ingredientes
-      </h2>
-      <ul class="receta-text">
-        <li>Texto</li>
-      </ul>
-    </section>
+      <!-- Video -->
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center">
+        <video src="./video/Croissant.mp4" controls class="rounded shadow-sm w-100" style="max-width: 360px;">
+          Tu navegador no soporta el video HTML5.
+        </video>
+      </div>
 
-    <!-- Procedimiento -->
-    <section class="mb-5">
-      <h2 class="receta-section-title">
-        <i class="fas fa-list-ol me-2"></i>Procedimiento
-      </h2>
-      <ol class="receta-text">
-        <li>Texto</li>
-      </ol>
+      <!-- Información de la receta -->
+      <div class="col-12 col-lg-6">
+
+        <!-- Ingredientes -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-carrot fa-xs me-2"></i>Ingredientes
+          </h2>
+          <ul class="receta-text">
+            <li>Harina de trigo</li>
+            <li>Mantequilla</li>
+            <li>Levadura</li>
+            <li>Azúcar</li>
+            <li>Sal</li>
+            <li>Huevo</li>
+            <li>Agua</li>
+          </ul>
+        </div>
+
+        <!-- Vida útil y almacenamiento -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-clock fa-xs me-2"></i>Vida útil y almacenamiento
+          </h2>
+          <ul class="receta-text">
+            <li>Temperatura ambiente: 3 días</li>
+            <li>Refrigerado: 5 a 6 días</li>
+          </ul>
+        </div>
+
+        <!-- Reactivar -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-sync-alt fa-xs me-2"></i>Reactivar
+          </h2>
+          <ul class="receta-text">
+            <li>Sacar del congelador 1 hora antes de consumir.</li>
+            <li>Tostar u hornear durante 3 a 5 minutos para reactivar.</li>
+          </ul>
+        </div>
+
+        <!-- Alérgenos -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-exclamation-triangle fa-xs me-2"></i>Alérgenos
+          </h2>
+          <p class="receta-text">Contiene gluten, lácteos, huevo, semillas y nueces.</p>
+        </div>
+
+        <!-- Usos sugeridos -->
+        <div class="mb-4">
+          <h2 class="receta-section-title">
+            <i class="fas fa-utensils fa-xs me-2"></i>Usos sugeridos
+          </h2>
+          <ul class="receta-text">
+            <li>Croissant relleno</li>
+            <li>Tostado con jamón y queso</li>
+            <li>Postres</li>
+          </ul>
+        </div>
+
+        <!-- Empaque -->
+        <div>
+          <h2 class="receta-section-title">
+            <i class="fas fa-box-open fa-xs me-2"></i>Empaque
+          </h2>
+          <p class="receta-text">
+            Bolsa con sello “Disfruta en casa”<br>
+            Código: Bolsa trans. 9x18x150gg impresa congelado Tartaleta
+          </p>
+        </div>
+
+      </div>
     </section>
 
     <!-- Botón volver -->
